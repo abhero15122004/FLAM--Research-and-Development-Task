@@ -1,11 +1,11 @@
-# 🚀 FLAM Placement – Parametric Curve Optimization Submission
+#  FLAM Placement – Parametric Curve Optimization Submission
 
-## 🎯 Objective  
+##  Objective  
 Estimate the unknown parameters \( \theta, M, X \) such that the predicted curve best fits the observed dataset by minimizing total **L1 distance**.
 
 ---
 
-## 🧠 Mathematical Model
+## Mathematical Model
 
 The parametric functions used for curve fitting:
 
@@ -25,7 +25,7 @@ Optimization goal:
 
 ---
 
-## 🛠 Methodology Summary
+##  Methodology Summary
 
 | Step | Method | Purpose |
 |------|--------|---------|
@@ -37,7 +37,7 @@ Optimization goal:
 
 ---
 
-## ✅ Final Estimated Parameters  
+##  Final Estimated Parameters  
 
 | Parameter | Value |
 |----------|-------|
@@ -47,18 +47,18 @@ Optimization goal:
 
 ---
 
-### ✅ Final L1 Score
+###  Final L1 Score
 
 \[
 \text{L1 Distance} = 37865.107276 \quad \Rightarrow \quad \text{Score: } 77.02/100
 \]
 
-✅ Global optimal solution obtained using hybrid search  
-✅ Meets scoring criteria for accuracy evaluation  
+Global optimal solution obtained using hybrid search  
+Meets scoring criteria for accuracy evaluation  
 
 ---
 
-## 📌 Final LaTeX Submission Equation (required output)
+## Final LaTeX Submission Equation (required output)
 
 Stored in: **fit_results/latex_submission.txt**
 
@@ -87,7 +87,7 @@ Shows overlapping behavior → strong curve fit ✔
 ---
 
 ### 🔹 Parameter Search Convergence  
-Displays global search distribution and best region found ✅
+Displays global search distribution and best region found 
 
 ![Parameter Scatter Search](fit_results/param_search_scatter.png)
 
@@ -101,31 +101,26 @@ Residuals remain low and stable across \(t\) → no bias ✔
 ---
 
 ### 🔹 L1 Loss Distribution Across All Runs  
-Best-performing parameters lie among the global minima ✅
+Best-performing parameters lie among the global minima 
 
 ![L1 Distribution](fit_results/l1_distribution.png)
 
 ---
 
-## ✅ Submission Compliance Checklist
+## Submission Compliance Checklist
 
 | Requirement | Status |
 |------------|--------|
-| Estimated variables provided | ✅ |
-| LaTeX submission equation | ✅ |
-| L1 distance score | ✅ |
-| Code + result files included | ✅ |
-| Graphs + analysis explanation | ✅ |
-| README explaining full process | ✅ |
+| Estimated variables provided 
+| LaTeX submission equation 
+| L1 distance score 
+| Code + result files included 
+| Graphs + analysis explanation 
+| README explaining full process 
 
 ---
 
 📌 Submission by: **Abhinay Reddy**  
 📅 Date: **2025**
-
----
-
-✅ This README fully satisfies **FLAM Placement Evaluation Requirements**  
-(Accuracy + Explanation + Code + Plots + Formatting)
 
 ---
