@@ -23,46 +23,9 @@ Optimization goal:
 \text{Minimize: } \sum_{i=1}^{N} \left( \left| x_{obs}(t_i) - x(t_i)\right| + \left|y_{obs}(t_i) - y(t_i)\right| \right)
 \]
 
-The parametric formulation used in this project is designed to accurately represent the geometric behavior of the observed FLAM placement data. The functions incorporate both linear and nonlinear components so that the model can capture the overall trajectory as well as local oscillations. The linear terms 𝑡
-cos
-⁡
-(
-𝜃
-)
-tcos(θ) and 
-𝑡
-sin
-⁡
-(
-𝜃
-)
-tsin(θ) define a rotated line that establishes the base direction of motion, where the rotation angle 
-𝜃
-θ allows the curve to align itself with the dominant trend of the observed dataset.
+The parametric formulation used in this project is designed to accurately represent the geometric behavior of the observed FLAM placement data. The functions incorporate both linear and nonlinear components so that the model can capture the overall trajectory as well as local oscillations. The linear terms tcos(θ) and tsin(θ) define a rotated line that establishes the base direction of motion, where the rotation angle θ allows the curve to align itself with the dominant trend of the observed dataset.
 
-To account for the visible fluctuations in the recorded points, the design includes a sinusoidal 
-sin
-⁡
-(
-0.3
-𝑡
-)
-sin(0.3t) term, which introduces periodic variations that naturally follow the shape characteristics present in the original data sample. These oscillations are further modulated using an exponential function 
-exp
-⁡
-(
-𝑀
-∣
-𝑡
-∣
-)
-exp(M∣t∣). This ensures that as 
-𝑡
-t progresses, the oscillations gradually expand in amplitude—matching the real-world behavior where variance increases over time. Finally, the horizontal offset parameter 
-𝑋
-X and a constant offset in the 
-𝑦
-y-equation shift the curve into proper alignment with the data distribution.
+To account for the visible fluctuations in the recorded points, the design includes a sinusoidal sin(0.3t) term, which introduces periodic variations that naturally follow the shape characteristics present in the original data sample. These oscillations are further modulated using an exponential function exp(M∣t∣). This ensures that as t progresses, the oscillations gradually expand in amplitude—matching the real-world behavior where variance increases over time. Finally, the horizontal offset parameter X and a constant offset in the 𝑦-equation shift the curve into proper alignment with the data distribution.
 
 The optimization objective is based on minimizing the L1 distance between predicted curve points and the observed dataset. The L1 metric is deliberately selected because it provides robustness against noise and outliers that may otherwise distort the model if an L2-based metric were used. Instead of allowing a few large deviations to dominate the loss value, L1 ensures that the fitting procedure distributes its adjustments consistently across the entire curve. This results in a model that better reflects the true underlying trend of the data rather than overfitting only a subset of points.
 
