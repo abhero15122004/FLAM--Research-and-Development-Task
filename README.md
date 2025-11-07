@@ -75,39 +75,39 @@ y(t)=42 + t\sin(0.49054634) + \exp(0.021321363086|t|)\sin(0.3t)\cos(0.49054634)
 
 ---
 
-## 📊 Visual Results Included (`fit_results/`)
+## Visual Results Included (`fit_results/`)
 
 Each visual is accompanied by a short explanation.
 
-### 🔹 Observed vs Predicted Curve  
+### Observed vs Predicted Curve  
 Shows overlapping behavior → strong curve fit ✔
 
 ![Observed vs Best Fit](fit_results/observed_vs_bestfit.png)
 
 ---
 
-### 🔹 Parameter Search Convergence  
+### Parameter Search Convergence  
 Displays global search distribution and best region found 
 
 ![Parameter Scatter Search](fit_results/param_search_scatter.png)
 
 ---
 
-### 🔹 Residual Plot  
+### Residual Plot  
 Residuals remain low and stable across \(t\) → no bias ✔
 
 ![Residuals vs t](fit_results/residuals_vs_t_best.png)
 
 ---
 
-### 🔹 L1 Loss Distribution Across All Runs  
+### L1 Loss Distribution Across All Runs  
 Best-performing parameters lie among the global minima 
 
 ![L1 Distribution](fit_results/l1_distribution.png)
 
 ---
 
-📌 Submission by: **Abhinay Reddy**  
-📅 Date: **2025**
+Submission by: **Abhinay Reddy**  
+Date: 8 - 11 - 2025
 
 ---
