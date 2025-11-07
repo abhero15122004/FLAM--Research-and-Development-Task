@@ -70,8 +70,8 @@ x(t)=t\cos(0.49054634) -\exp(0.021321363086|t|)\sin(0.3t)\sin(0.49054634) + 54.8
 y(t)=42 + t\sin(0.49054634) + \exp(0.021321363086|t|)\sin(0.3t)\cos(0.49054634)
 \]
 
-✔ This exact format is required in FLAM portal submission  
-✔ Variables clearly shown and no missing components  
+This exact format is required in FLAM portal submission  
+Variables clearly shown and no missing components  
 
 ---
 
