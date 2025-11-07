@@ -80,7 +80,7 @@ y(t)=42 + t\sin(0.49054634) + \exp(0.021321363086|t|)\sin(0.3t)\cos(0.49054634)
 Each visual is accompanied by a short explanation.
 
 ### Observed vs Predicted Curve  
-Shows overlapping behavior → strong curve fit ✔
+Shows overlapping behavior → strong curve fit 
 
 ![Observed vs Best Fit](fit_results/observed_vs_bestfit.png)
 
@@ -94,7 +94,7 @@ Displays global search distribution and best region found
 ---
 
 ### Residual Plot  
-Residuals remain low and stable across \(t\) → no bias ✔
+Residuals remain low and stable across \(t\) → no bias 
 
 ![Residuals vs t](fit_results/residuals_vs_t_best.png)
 
