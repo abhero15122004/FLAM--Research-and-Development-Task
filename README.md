@@ -68,6 +68,7 @@ y-equation shift the curve into proper alignment with the data distribution.
 The optimization objective is based on minimizing the L1 distance between predicted curve points and the observed dataset. The L1 metric is deliberately selected because it provides robustness against noise and outliers that may otherwise distort the model if an L2-based metric were used. Instead of allowing a few large deviations to dominate the loss value, L1 ensures that the fitting procedure distributes its adjustments consistently across the entire curve. This results in a model that better reflects the true underlying trend of the data rather than overfitting only a subset of points.
 
 By combining geometric flexibility, oscillatory behavior, growth modulation, and a noise-resistant loss function, this mathematical model successfully captures both the structure and dynamics of the FLAM input dataset. This allows the resulting parametric curve to function as an accurate and interpretable representation suitable for further placement-related assessments.
+
 ---
 
 ##  Methodology Summary
@@ -102,6 +103,7 @@ The horizontal shift
 X accurately positions the curve without distortion.
 
 Together, these demonstrate a successful parameter estimation that satisfies the placement assignment criteria.
+
 ---
 
 ###  Final L1 Score
@@ -111,6 +113,7 @@ L1 Distance = 37865.107276 L1-Score:  77.02/100
 Global optimal solution obtained using hybrid search  
 Meets scoring criteria for accuracy evaluation  
 The submitted solution satisfies all evaluation requirements, including a strong L1 distance score demonstrating clear alignment between the observed and predicted curves, a complete and well-structured explanation of the methodology and optimization process, and a fully reproducible code repository containing all necessary artifacts, plots, and final parameter results.
+
 ---
 
 ## Final LaTeX Submission Equation (required output)
