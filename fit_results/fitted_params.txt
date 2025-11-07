@@ -1,0 +1,5 @@
+Best parameters (theta_deg, M, X):
+[28.10623495223392, 0.021321363086375843, 54.89844303028097]
+Best L1: 37865.107276
+Best score (Option C): 77.021377/100
+D (diagonal spread): 54.928020
