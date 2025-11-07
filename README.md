@@ -106,9 +106,7 @@ Together, these demonstrate a successful parameter estimation that satisfies the
 
 ###  Final L1 Score
 
-\[
-\text{L1 Distance} = 37865.107276 \quad \Rightarrow \quad \text{Score: } 77.02/100
-\]
+L1 Distance = 37865.107276 L1-Score:  77.02/100
 
 Global optimal solution obtained using hybrid search  
 Meets scoring criteria for accuracy evaluation  
