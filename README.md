@@ -107,19 +107,6 @@ Best-performing parameters lie among the global minima
 
 ---
 
-## Submission Compliance Checklist
-
-| Requirement | Status |
-|------------|--------|
-| Estimated variables provided 
-| LaTeX submission equation 
-| L1 distance score 
-| Code + result files included 
-| Graphs + analysis explanation 
-| README explaining full process 
-
----
-
 📌 Submission by: **Abhinay Reddy**  
 📅 Date: **2025**
 
