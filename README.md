@@ -23,8 +23,7 @@ Optimization goal:
 \text{Minimize: } \sum_{i=1}^{N} \left( \left| x_{obs}(t_i) - x(t_i)\right| + \left|y_{obs}(t_i) - y(t_i)\right| \right)
 \]
 
-The parametric formulation used in this project is designed to accurately represent the geometric behavior of the observed FLAM placement data. The functions incorporate both linear and nonlinear components so that the model can capture the overall trajectory as well as local oscillations. The linear terms 
-𝑡
+The parametric formulation used in this project is designed to accurately represent the geometric behavior of the observed FLAM placement data. The functions incorporate both linear and nonlinear components so that the model can capture the overall trajectory as well as local oscillations. The linear terms 𝑡
 cos
 ⁡
 (
